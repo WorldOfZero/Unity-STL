@@ -13,7 +13,7 @@ The Tower is exported directly from [Archimatix](http://www.archimatix.com).
 ![Morph 3D Female](/Documentation/Images/Mini.jpg)
 
 
-An attempt to build a minifig using Morph3D. At this scale my printer struggles and I'm not using high quality materials for this sample.
+An attempt to build a minifig using [Morph3D](https://www.morph3d.com). At this scale my printer struggles and I'm not using high quality materials for this sample.
 
 # STL Documentation
 More information about the [STL File Format](https://en.wikipedia.org/wiki/STL_(file_format) can be found here.
