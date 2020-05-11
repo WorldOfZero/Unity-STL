@@ -114,7 +114,7 @@ public class MeshPreviewEditor : EditorWindow
 
             var meshExport = STLBuilder.Mesh.Build("UnityExport", selectedMeshes.Concat(skinnedMeshes).ToArray());
             var stlFile = StlBuilder.Build(meshExport);
-            File.WriteAllText("C:\\mesh.stl", stlFile); //TODO: Change this
+            File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), "exported-mesh.stl"), stlFile); //TODO: Change this
         }
         EditorGUILayout.EndHorizontal();
     }
